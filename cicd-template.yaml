@@ -128,7 +128,7 @@ objects:
                 steps {
                   script {
                     if (env.ENABLE_SONAR.toBoolean()) {
-                      sh "${mvnCmd} sonar:sonar -Dsonar.host.url=http://sonarqube:9000 -DskipTests=true"
+                      sh "${mvnCmd} sonar:sonar -Dsonar.host.url=http://sonarqube:9000 -Dsonar.login=ce64518a589ada9a86338de58b6a7d0decb53258 -DskipTests=true"
                     }
                   }
                 }
