@@ -16,7 +16,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus:80/repository/maven-all-public/</url>
+      <url>http://nexus:80/repository/maven-public/</url>
     </mirror>
   </mirrors>
   <profiles>
